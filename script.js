@@ -23,7 +23,7 @@ form.addEventListener("submit", function (e) {
       distance: 0 // Optional: you can calculate from a fixed point
     };
 
-    fetch("https://script.google.com/macros/s/AKfycbzWqxkZm_St8zRbanXFuYhxm5WHR4rH3MucTQ8g85rVnj2-nsv6KFiAYDI-2UqgY2Bu/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbwBvSi58WA7fzpP5zxqSUU_PCgoOEVwl9K93cVEjRzRMLqlHnHYKKtzDjMkA0jzLZgy/exec", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {
